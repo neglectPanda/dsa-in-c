@@ -49,3 +49,11 @@
     </tr>
   </tbody>
 </table>
+<h3>ADTs</h3>
+<ul>
+  <li>uses a data structure called a <strong>client</strong> program</li>
+  <li>access interface only (frontend no backend)</li>
+  <li>implements the DS is <strong>implementation</strong></li>
+</ul>
+<h4>ADVANTAGE</h4>
+<p>A user wants to use stacking in a program, they can just use push pop functions/operations without knowing its implementation. Its just there. Abstract.</p>
