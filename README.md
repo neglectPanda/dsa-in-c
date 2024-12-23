@@ -5,9 +5,7 @@
   <thead>
     <tr>
       <th>Data Type</th>
-    </tr>
-    <tr>
-      <th>Abstract Data Types</th>
+      <th>Abstract Data Types (ADTs)</th>
     </tr>
   </thead>
   <tbody>
