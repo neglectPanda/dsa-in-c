@@ -12,10 +12,18 @@
   </thead>
   <tbody>
     <tr>
-      <td>Defines a certain domain of values</td>
-    </tr>
-    <tr>
-      <td>Defines Operations allowed on those values</td>
+      <td>
+        <p>Defines a certain domain of values
+          <br>
+          Defines operations to be used on values (+, -, *, /, etc.)
+        </p>
+      </td>
+      <td>
+        <p>
+          Defines operations on values <strong>using functions</strong> without specifying 
+          what is there inside the function and how the operations are performed
+        </p>
+      </td>
     </tr>
     <tr>
       <td>
@@ -27,6 +35,17 @@
           &emsp; - Takes only integer values
           <br>
           &emsp; - Operations: Add, Subtract, Multiply, Divide (etc).
+        </p>
+      </td>
+      <td>
+        <i>Example</i>
+        <br>
+        <p>
+          <strong>STACK ADT</strong>
+          <br>
+          &emsp; - stack contains elements of the same type arranged in sequential order (last in first out)
+          <br>
+          &emsp; - operations are - initialize, push, pop, isEmpty, isFull
         </p>
       </td>
     </tr>
