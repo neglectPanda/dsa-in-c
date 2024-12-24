@@ -27,18 +27,17 @@
     <tr>
       <td>
         <p>
-          <code>.push()</code> - pushes an element at the end of the array
-          <br>
-          <i>Example:</i>
+          <code>.push()</code> - pushes an element at the end of the array <br>
           <p>
+            <i>Example:</i> <br>
             Let's say you have an array <strong><i>[1, 2, 3, 4, 5]</i></strong> and you want to add 6 to the end of it. <code>.push()</code>
             can let you do that.
-          </p>
-          <code>
+            <code>
             let arr = [1, 2, 3, 4, 5];
             arr.push(6);
-          </code>
-          <strong>result = [1, 2, 3, 4, 5, 6]</strong>
+            </code>
+            <strong>result = [1, 2, 3, 4, 5, 6]</strong>
+          </p>
         </p>
       </td>
     </tr>
