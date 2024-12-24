@@ -60,3 +60,12 @@
     </tr>
   </tbody>
 </table>
+
+<p>Now we will code these functions in C to get the gist of it.</p>
+<h2>Phase 1</h2>
+<p>This phase will follow the JavaScript Functions</p>
+<code>
+  int popElement(int arr[], int *size) {
+    int lastElement = 0;
+  }
+</code>
