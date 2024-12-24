@@ -114,6 +114,7 @@ int pushElement(int arr[], int *size) {
 
     printf("\nUpdated Array (pushed): ");
     for(int i = 0; i < *size; i++) {
+        //reassigned the last element of the array into whatever pushedElement is
         arr[*size - 1] = pushedElement;
         printf("%d ", arr[i]);
     }
