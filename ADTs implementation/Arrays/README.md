@@ -10,7 +10,7 @@
 </ul>
 
 <p>
-  From my previous experiences with JS and Python, these two have similar functions with respect to each programming language.
+  From my previous experiences with JavaScript, we can just call these functions to do something without knowing its implementation processes.
   The deal with ADTs is that high level languages use these functions to do something without us, the programmers really knowing 
   what's going on behind the scenes. 
 </p>
