@@ -30,7 +30,6 @@
           <code>.push()</code> - pushes an element at the end of the array
           <br>
           <i>Example:</i>
-          <br>
           <p>
             Let's say you have an array <strong><i>[1, 2, 3, 4, 5]</i></strong> and you want to add 6 to the end of it. <code>.push()</code>
             can let you do that.
