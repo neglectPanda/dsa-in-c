@@ -32,8 +32,8 @@
             <i>Example:</i> <br>
             Let's say you have an array <strong><i>[1, 2, 3, 4, 5]</i></strong> and you want to add 6 to the end of it. <code>.push()</code>
             can let you do that.
-            <code>let arr = [1, 2, 3, 4, 5];</code>
-            <code>arr.push(6);</code>
+            <code>let arr = [1, 2, 3, 4, 5];</code><br>
+            <code>arr.push(6);</code><br>
             <strong>result = [1, 2, 3, 4, 5, 6]</strong>
           </p>
         </p>
