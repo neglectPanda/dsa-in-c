@@ -73,3 +73,4 @@
     <li>For the <code>.push()</code> and <code>.pop()</code> you can now choose which index to replace/remove values</li>
   </ul>
 </p>
+<code>Check Out Phase 2 above.</code>
