@@ -14,7 +14,7 @@
   The deal with ADTs is that high level languages use these functions to do something without us, the programmers really knowing 
   what's going on behind the scenes. 
 </p>
-<p><strong>Here are the differences in use-cases for JS and Python:</strong></p>
+<p><strong>Here are the JavaScript use-cases so you'll understand the gist./strong></p>
 
 <table>
   <thead>
