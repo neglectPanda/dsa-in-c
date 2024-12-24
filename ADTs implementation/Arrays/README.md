@@ -36,6 +36,7 @@
               <code>let arr = [1, 2, 3, 4, 5];</code><br>
               <code>arr.push(6);</code><br>
             </div>
+            <br>
             <strong>result = [1, 2, 3, 4, 5, 6]</strong>
           </p>
         </p>
