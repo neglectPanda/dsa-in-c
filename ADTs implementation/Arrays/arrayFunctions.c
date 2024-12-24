@@ -114,7 +114,7 @@ int pushElement(int arr[], int *size) {
 
     printf("\nUpdated Array (pushed): ");
     for(int i = 0; i < *size; i++) {
-        arr[0] = pushedElement;
+        arr[*size - 1] = pushedElement;
         printf("%d ", arr[i]);
     }
 
