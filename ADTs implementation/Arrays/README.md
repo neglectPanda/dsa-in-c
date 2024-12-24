@@ -20,7 +20,6 @@
   <thead>
     <tr>
       <th>JavaScript</th>
-      <th>Python</th>
     </tr>
   </thead>
   <tbody>
@@ -38,6 +37,23 @@
             </div>
             <br>
             <strong>result = [1, 2, 3, 4, 5, 6]</strong>
+          </p>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>
+          <code>.pop()</code> - removes the last element of an array <br>
+          <p>
+            <i>Example:</i><br>
+            Let's use the resulting array from the <code>.push()</code> <i><strong>[1, 2, 3, 4, 5, 6]</strong></i><br>
+            Here, we will remove 6 (the last element of the array)<br>
+            <div>
+              <code>let arr = [1, 2, 3, 4, 5, 6];</code>
+              <code>arr.pop()</code>
+            </div>
+            <strong>result = [1, 2, 3, 4, 5]</strong>
           </p>
         </p>
       </td>
