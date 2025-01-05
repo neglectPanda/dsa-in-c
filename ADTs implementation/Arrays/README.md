@@ -65,3 +65,12 @@
 <h2>Phase 1</h2>
 <p>This phase will follow the JavaScript Functions</p>
 <code>Check Out Phase 1 above.</code>
+
+<h2>Phase 2</h2>
+<p>
+  This will be the improved version: 
+  <ul>
+    <li>For the <code>.push()</code> and <code>.pop()</code> you can now choose which index to replace/remove values</li>
+  </ul>
+</p>
+<code>Check Out Phase 2 above.</code>
