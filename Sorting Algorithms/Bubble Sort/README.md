@@ -60,5 +60,18 @@
         </p>
       </td>
     </tr>
+    <tr>
+      <td>
+        <code>if(arr[j] > arr[j + 1])</code><br>
+        <p>This is the condition we need to check. In human words, this means that if the current element at index arr[j] is greater than its next element (assuming its direction is from left to right)<br>
+          <i>Example:</i><br>
+          Let's say we have an array <code>{1, 2, 3}</code> and then let's say <code>j = 0</code> (this is the first element).<br>
+          <ul>
+            <li><code>arr[j]</code> here is 1</li>
+            <li><code>arr[j + 1]</code> is therefore, 2</li>
+          </ul>
+        </p>
+      </td>
+    </tr>
   </tbody>
 </table>
