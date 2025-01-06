@@ -30,11 +30,35 @@
       </td>
     </tr>
     <tr>
-      <code>int i = 0;</code><br>
+      <td>
+        <code>int i = 0;</code><br>
       <p>This is a pass count of the array. In simple terms, this keeps count on the number of times the bubble sort has been completed.<br>
         <i>Example:</i><br>
         When <code>9</code> and <code>2</code> switches in the array, then <code>i = 0</code> will increment by <code>1</code>
       </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>for(int j = 0; j < size - 1 - i; j++)</code><br>
+        <p>
+          What I want to focus here is the logic <code>size - 1 - i</code>. In human words, this means size subtracted by 1 <code>(because the last element has nothing to be compared to on its right side)</code> and then subtracted by the pass count<br>
+          <i>Here's how it works:</i><br>
+          <ol>
+            <li>In the first pass <code>i = 0</code>, the inner loop runs <code>size - 1</code> times, comparing all elements</li>
+            <li>The second pass, <code>i = 1</code>, the inner loop runs <code>size - 2</code> because that's <code>size - 1 - 1 (i)</code>; it skips the last sorted element </li>
+          </ol>
+          <br>
+          <i>Example:</i> (using a much simpler array)<br>
+          <code>int arr[] = {4, 3, 2, 1};</code><br>
+          We want to arrange this in ascending order.<br>
+          <ul>
+            <li>The first pass <code>i = 0</code> compares all elements of <code>j < size - 1</code>, the largest element value <code>4</code> is moved to the last position</li>
+            <li>The second pass <code>i = 1</code> only compares up to the second-to-the-last position <code>j < size - 1 - 1</code>. So the 2nd largest element here, which is 3, is then moved to the second-to-the-last positon.</li>
+            <li>So therefore, all the large element value will bubble up to the end giving us the final result<br><code>{1, 2, 3, 4}</code></li>
+          </ul>
+        </p>
+      </td>
     </tr>
   </tbody>
 </table>
