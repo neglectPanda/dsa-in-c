@@ -63,7 +63,7 @@
 
 <p>Now we will code these functions in C to get the gist of it.</p>
 <h2>Phase 1</h2>
-<p>This phase will follow the JavaScript Functions</p>
+<p>This phase will follow the JavaScript Functions except it replaces said element at position.</p>
 <code>Check Out Phase 1 above.</code>
 
 <h2>Phase 2</h2>
