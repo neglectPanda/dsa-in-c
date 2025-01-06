@@ -15,5 +15,7 @@
   Let's focus on the first two elements of the array, <code>9</code> and <code>2</code>.<br>
   The condition <code>arr[i] > arr[i+1]</code> will check if 9 <code>(arr[i])</code> is bigger than 2 <code>(arr[i+1])</code>. Since here it is <code>true</code>, it will swap out <code>9</code> and <code>2</code>.<br><br>
   <i>Therefore, the new arrangement of the array, focusing on the first two elements is:</i><br>
-  <code>{2, 9, ...}</code>
+  <code>{2, 9, ...}</code><br><br>
+
+  It's basically like this as it goes through all of the elements until it is sorted. Which means that the smallest value element <code>0</code> is in the first index <code>i = 0</code> and the largest value element <code>9</code> is at index <code>i = 9</code>
 </p>
