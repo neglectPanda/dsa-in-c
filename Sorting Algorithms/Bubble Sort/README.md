@@ -10,10 +10,10 @@
 </p>
 <p>
   From the video, you can see it's comparing the elements. It's trying to see if the element at let's say arr[i] is bigger than arr[i+1].<br>
-  If it is, then it swaps them out.<br>
+  If it is, then it swaps them out.<br><br>
   <i>Example:</i><br>
   Let's focus on the first two elements of the array, <code>9</code> and <code>2</code>.<br>
   The condition <code>arr[i] > arr[i+1]</code> will check if 9 (arr[i]) is bigger than 2 (arr[i+1]). Since here it is <code>true</code>, it will swap out <code>9</code> and <code>2</code>.<br>
-  <i>Therefore, the new arrangement of the array, focusing on the first two elements is:</i><br>
+  <i>Therefore, the new arrangement of the array, focusing on the first two elements is:</i><br><br>
   <code>{2, 9, ...}</code>
 </p>
