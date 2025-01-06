@@ -19,3 +19,22 @@
 
   It's basically like this as it goes through all of the elements until it is sorted. Which means that the smallest value element <code>0</code> is in the first index <code>i = 0</code> and the largest value element <code>9</code> is at index <code>i = 9</code>
 </p>
+
+<h3>Code Explanation</h3>
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <code>bool isSwapped = false;</code><br>
+        <p>We are initializing a boolean variable named isSwapped to false. This means that in the initial run of the program, nothing has been swapped yet.</p>
+      </td>
+    </tr>
+    <tr>
+      <code>int i = 0;</code><br>
+      <p>This is a pass count of the array. In simple terms, this keeps count on the number of times the bubble sort has been completed.<br>
+        <i>Example:</i><br>
+        When <code>9</code> and <code>2</code> switches in the array, then <code>i = 0</code> will increment by <code>1</code>
+      </p>
+    </tr>
+  </tbody>
+</table>
