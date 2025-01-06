@@ -34,7 +34,7 @@
         <code>int i = 0;</code><br>
       <p>This is a pass count of the array. In simple terms, this keeps count on the number of times the bubble sort has been completed.<br>
         <i>Example:</i><br>
-        When <code>9</code> and <code>2</code> switches in the array, then <code>i = 0</code> will increment by <code>1</code>
+        When <code>9</code> and <code>2</code> switches in the array, then <code>i = 0</code> will increment by <code>1</code> from the <code>i++</code> line 31 from the code above
       </p>
       </td>
     </tr>
@@ -80,6 +80,17 @@
         <code>arr[j] = arr[j + 1];</code><br>
         <code>arr[j + 1] = temp;</code><br>
         <code>isSwapped = true;</code><br>
+        <br><p>
+          In human words, we declared a temporary variable to store whatever value is in at <code>arr[j]</code>. This is important because swapping values in a computer without declaring a third party variable can cause overriding. If you just directly reassign the variables, then the original value will disappear because it has been overridden/overwritten by the new one. That should not be the case when swapping.
+        </p><br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>In the <code>do{...} while()</code> code, there is a reassignment of the variable <code>isSwapped</code> to the same value of its initialization, <code>false</code>. Now, <i>Why is this necessary?</i><br>
+        <br>
+          Since we're doing a do-while loop, it will keep executing the main program while isSwapped is false. It is like this so that the program can detect if something has been swapped which can make it true. If we didn't do the reassignment, it will always remain <code>true</code> even if no swapping occurred, causing a <strong>segmentation error</strong>. 
+        </p>
       </td>
     </tr>
   </tbody>
