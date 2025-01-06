@@ -76,10 +76,10 @@
     <tr>
       <td>
         <p>If the condition above is satisfied, it will then proceed with the swapping, executed by the code below:</p><br>
-        <code>int temp = arr[j];</code>
-        <code>arr[j] = arr[j + 1];</code>
-        <code>arr[j + 1] = temp;</code>
-        <code>isSwapped = true;</code>
+        <code>int temp = arr[j];</code><br>
+        <code>arr[j] = arr[j + 1];</code><br>
+        <code>arr[j + 1] = temp;</code><br>
+        <code>isSwapped = true;</code><br>
       </td>
     </tr>
   </tbody>
