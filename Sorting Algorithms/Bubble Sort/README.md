@@ -13,7 +13,7 @@
   If it is, then it swaps them out.<br><br>
   <i>Example:</i><br>
   Let's focus on the first two elements of the array, <code>9</code> and <code>2</code>.<br>
-  The condition <code>arr[i] > arr[i+1]</code> will check if 9 (arr[i]) is bigger than 2 (arr[i+1]). Since here it is <code>true</code>, it will swap out <code>9</code> and <code>2</code>.<br><br>
+  The condition <code>arr[i] > arr[i+1]</code> will check if 9 <code>(arr[i])</code> is bigger than 2 <code>(arr[i+1])</code>. Since here it is <code>true</code>, it will swap out <code>9</code> and <code>2</code>.<br><br>
   <i>Therefore, the new arrangement of the array, focusing on the first two elements is:</i><br>
   <code>{2, 9, ...}</code>
 </p>
