@@ -6,5 +6,5 @@
   and you want to arrange them from decreasing to increasing order.<br>
 </p>
 <p>
-  Check this <a href='https://en.wikipedia.org/wiki/Bubble_sort#/media/File:Bubble-sort-example-300px.gif'>video</a> out for visual presentation.
+  Check this <a href='https://en.wikipedia.org/wiki/Bubble_sort#/media/File:Bubble-sort-example-300px.gif' target='_blank'>video</a> out for visual presentation.
 </p>
