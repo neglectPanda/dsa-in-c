@@ -28,7 +28,9 @@
         </td>
       </tr>
       <tr>
-        <p>Either way, these are just foundation knowledge. Both of them are slower than a turtle when handling large data sets.</p>
+        <td>
+          <p>Either way, these are just foundation knowledge. Both of them are slower than a turtle when handling large data sets.</p>
+        </td>
       </tr>
     </tbody>
   </table>
