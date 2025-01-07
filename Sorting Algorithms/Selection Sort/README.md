@@ -80,11 +80,11 @@
     <tr>
       <td>
         <p>In the outer loop we have this logic here:</p>
-        <code>if(min != i) {</code>
-        <code>  int temp = arr[i];</code>
-        <code>  arr[i] = arr[min];</code>
-        <code>  arr[min] = temp;</code>
-        <code>}</code>
+        <code>if(min != i) {</code><br>
+        <code>  int temp = arr[i];</code><br>
+        <code>  arr[i] = arr[min];</code><br>
+        <code>  arr[min] = temp;</code><br>
+        <code>}</code><br>
         <p>What we are doing here is to check if the index at <code>min</code> is not the same as <code>i</code> because if it is, then no swapping needed.<br>The code preceding is just the swapping of values. The smallest will be the first, and then the largest will be the last.</p>
       </td>
     </tr>
