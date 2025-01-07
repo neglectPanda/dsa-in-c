@@ -27,8 +27,8 @@
           <p>Selection sort does that too but instead of consecutive elements, per se, it will compare values across all the elements until it finds the right values to swap, and then the minimum value will be placed in the right position</p>
         </td>
       </tr>
-      <tr colspan="2">
-        <td>
+      <tr>
+        <td  colspan="2">
           <p>Either way, these are just foundation knowledge. Both of them are slower than a turtle when handling large data sets.</p>
         </td>
       </tr>
