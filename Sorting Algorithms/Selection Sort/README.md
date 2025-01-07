@@ -28,8 +28,8 @@
         </td>
       </tr>
       <tr>
-        <td colspan="2" style="text-align: center;">
-          <p>Either way, these are just foundation knowledge. Both of them are slower than a turtle when handling large data sets.</p>
+        <td colspan="2">
+          <p style="text-align: center;">Either way, these are just foundation knowledge. Both of them are slower than a turtle when handling large data sets.</p>
         </td>
       </tr>
     </tbody>
