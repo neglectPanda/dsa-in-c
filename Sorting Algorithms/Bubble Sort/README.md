@@ -95,3 +95,6 @@
     </tr>
   </tbody>
 </table>
+
+<h2>Ender Statement</h2>
+<p>Bubble sort is the ideal algorithm to learn as an entry to Data Structures and Algorithms. It gives programmers a gist of what it is and how it's done. However, bubble sort is slow when you are handling large data sets making it not ideal for real-world applications.</p>
