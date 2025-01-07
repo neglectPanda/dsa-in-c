@@ -52,7 +52,8 @@
       </td>
     </tr>
     <tr>
-      <code>for(int j = i + 1; j < length; j++)</code><br>
+      <td>
+        <code>for(int j = i + 1; j < length; j++)</code><br>
       <em>This is the inner loop which will see all of the elements inside the loop.</em><br>
       <p>This part here in human words, <code>j = i + 1</code> is: j is assigned to whatever i's next element is.<br>
         <i>Example:</i><br>
@@ -64,6 +65,15 @@
           <li><p><code>j = i + 1</code> is 4</p></li>
         </ul>
       </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Inside the inner loop we have the code:</p><br>
+        <code>if(arr[j] < arr[min]) {</code><br>
+        <code>  min = j;</code><br>
+        <code>}</code>
+      </td>
     </tr>
   </tbody>
 </table>
