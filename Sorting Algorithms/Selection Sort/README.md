@@ -61,7 +61,7 @@
         at <code>i = 0</code> meaning the first index, <code>i = 0</code> is <code>2</code> from the array.<br>
         So, since <code>j = i + 1</code> therefore <code>j</code> is actually whatever is next to <code>2</code> which is <code>4</code><br>
         <ul>
-          <li><p>><code>i = 0</code> is 2</p></li>
+          <li><p><code>i = 0</code> is 2</p></li>
           <li><p><code>j = i + 1</code> is 4</p></li>
         </ul>
       </p>
@@ -69,10 +69,23 @@
     </tr>
     <tr>
       <td>
-        <p>Inside the inner loop we have the code:</p><br>
+        <p>Inside the inner loop we have the code:</p>
         <code>if(arr[j] < arr[min]) {</code><br>
         <code>  min = j;</code><br>
         <code>}</code>
+        <p>In human words, we are basically checking if the array at index j is less than the assumed value at arr[min]. If it is, then <code>we update the minimum index to whatever j is.</code></p>
+        <p>This loop will continue to do so until the condition <code>j < length</code> is no longer satisfied.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>In the outer loop we have this logic here:</p>
+        <code>if(min != i) {</code>
+        <code>  int temp = arr[i];</code>
+        <code>  arr[i] = arr[min];</code>
+        <code>  arr[min] = temp;</code>
+        <code>}</code>
+        <p>What we are doing here is to check if the index at <code>min</code> is not the same as <code>i</code> because if it is, then no swapping needed.<br>The code preceding is just the swapping of values. The smallest will be the first, and then the largest will be the last.</p>
       </td>
     </tr>
   </tbody>
