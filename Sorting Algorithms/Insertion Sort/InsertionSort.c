@@ -12,19 +12,15 @@ int main() {
 }
 
 void insertionSort(int arr[], int size) {
-    //inner loop loops through all the elements of the array
-    //outer loop focuses on shifting the elements to the left in their proper positions
 
-    //i = 1 because we want to compare it to the left
-    //i = 0 is the default
     for(int i = 1; i < size; i++) {
-        //keep track of the element we r lookin at
+        
         int key = arr[i];
-        int j = i - 1; //initialize to the left side of i
+        int j = i - 1; 
 
         while(j >= 0 && arr[j] > key) {
             arr[j + 1] = arr[j];
-            j -= 1; //this is for elements to shift on the left
+            j -= 1; 
         }
 
         arr[j + 1] = key;
