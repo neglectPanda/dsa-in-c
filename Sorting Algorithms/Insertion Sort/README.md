@@ -4,7 +4,7 @@
 <p>Here's a <a href='https://en.wikipedia.org/wiki/Insertion_sort#/media/File:Insertion-sort-example-300px.gif'>visual representation</a> from wikipedia for better understanding.</p>
 
 <h2>General Algorithm Explanation</h2>
-<p>Let's say we have an array of numbers <code>int arr[] = {2, 4, 1, 5, 3};</code>. We want to arrange them in ascending order (smallest to largest).<br>
+<p>Let's say we have an array of numbers <code>int arr[] = {2, 4, 1, 5, 3};</code>. We want to arrange them in ascending order (smallest to largest).<br><br>
 We assume that the smallest one here is at index <code>i = 1</code> which is <code>4</code>. It's this way so we can look to the left of it. Once a swap happens, everytime we loop through an element, it will always look at the elements at the left for comparison. If something is smaller, it will then get inserted at is proper position.
 </p>
 
