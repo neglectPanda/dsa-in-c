@@ -38,7 +38,7 @@ We assume that the smallest one here is at index <code>i = 1</code> which is <co
         <code>}</code><br>
         <ul>
           <li>
-            <p>The condition <code>j >= 0 && arr[j] > key</code> just means that if j hasnt reached 0 yet AND the element at arr[j] is greater than the key, we would switch them.<br><code>arr[j+1] is basically just <code>i</code>. Then, <code>j -= 1</code> just simply means shifting all the elements to the left</p>
+            <p>The condition <code>j >= 0 && arr[j] > key</code> just means that if j hasnt reached 0 yet AND the element at arr[j] is greater than the key, we would switch them.<br><code>arr[j+1]</code> is basically just <code>i</code>.<br><code>j -= 1;</code> just means shifting all the elements to the left.</p>
           </li>
           <li>
             <p>If the condition(s) is/are no longer satisfied, meaning the element compared is smaller to the element that is being compared, then we just assign <code>arr[j+1]</code> to whatever the value of <code>key</code> is after the reassignments done.</p>
